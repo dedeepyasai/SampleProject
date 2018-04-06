@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+	background:skyblue;
+}
+.main_wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+}
+.header_wrapper{
+	width:1000px;
+	height:100px;
+	margin:auto;
+    float:both;
+}
+#form{
+float:right;
+margin-top: -30px;
+}
+.menubar{
+	width:1000px;
+	height:50px;
+	background:gray;
+	color:white;
+}
+#menu{
+padding:0;
+margin: 0;
+line-height: 35px;
+
+}
+#menu li{
+list-style: none;
+display:inline;
+}
+#menu a{
+	text-decoration: none;
+	color: white;
+	padding:3px;
+	margin: 3px;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+	/*float:left;*/
+}
+#menu a:hover{
+	color:orange;
+	font-weight: bolder;
+    text-decoration: underline;
+}
+.content_wrapper{
+	width:1000px;
+	height:800px;
+	background: pink;
+}
+#content_area{
+	width:800px;
+	height:800px;
+	float:right;
+	background: pink;
+    }
+#sidebar{
+	width:200px;
+	height:800px;
+	background: black;
+	float: left;
+}
+#sidebar_title{
+	background:white;
+	color: black;
+	font-size: 22px;
+	font-family: arial;
+	padding: 2px;
+	text-align: center;
+	text-decoration: none;
+}
+#cats{
+	padding:0;
+	text-align: center;
+}
+#cats li{
+	list-style: none;
+	padding:2px;
+}
+#cats a{
+	color:white;
+	text-align: center;
+	font-size: 18px;
+	font-family: COMIC SANS MS;
+	text-decoration: none;
+}
+#cats a:hover{
+	color:orange;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+#footer{
+	width:1000px;
+	height:100px;
+	background: gray;
+	clear:both;
+}
+#logo{
+	float: left;
+    height:100px;
+}
+#banner{
+	float: right;
+    height:100px;
+}
